@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: cornflowerblue;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+#titleId {
+  font-size: 45px;
+  font-weight: bold;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+input {
+  width: 450px;
+  height: 40px;
+  font-size: 15px;
+}
+button {
+  width: 50px;
+  height: 45px;
+  font-size: 15px;
+}
+.contentAreaClass {
+  width: 510px;
+  height: 500px;
+  background-color: white;
+  margin-top: 10px;
+  font-size: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.deleteButtonClass {
+  width: 35px;
+  height: 35px;
+  display: inline-block;
+  color: white;
+  background-color: red;
+  text-align: center;
+  margin-left: 10px;
+  cursor: pointer;
+}
+.doneButtonClass {
+  width: 35px;
+  height: 35px;
+  display: inline-block;
+  color: white;
+  background-color: green;
+  text-align: center;
+  margin-left: 10px;
+  cursor: pointer;
+}
+.lineClass {
+  text-decoration: line-through;
+}
